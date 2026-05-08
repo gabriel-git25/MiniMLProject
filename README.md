@@ -16,22 +16,27 @@ Konkret wird das Modell mit Beispieldaten trainiert, die Informationen wie das d
 die durchschnittliche Anzahl an Zimmern und Schlafzimmern sowie die Bevölkerungszahl in einer Nachbarschaft enthalten. Aus diesen Daten lernt es eine
 mathematische Beziehung zwischen den Eigenschaften und dem Preis. 
 
+____________________
+
 **Laufende Version**
 
 Die laufende Version des Projekts befindet sich im Jupyter Notebook „MiniMLProject.ipynb“ im folgenden Repository:
 https://github.com/gabriel-git25/MiniMLProject
 
+____________________
+
 **Benutzungsanleitung**
 
 1. Beim Starten des Programms wird zunächst gefragt, anhand welcher Eigenschaft der Marktpreis einer Immobilie vorhergesagt werden soll.
    Dabei können Sie sich für folgende Faktoren entscheiden:
-   1. "Avg. Area Income"
-   2. "Avg. Area House"
-   3. "Avg. Area Number of Rooms"
-   4. "Area Population"
-   5. Use all of the features above"
+   - "Avg. Area Income" (1)
+   - "Avg. Area House" (2)
+   - "Avg. Area Number of Rooms" (3)
+   - "Area Population" (4)
+   - "Use all of the features above" (5)
    
-   *Hinweis:* Bei fehlender oder unerwarteter Eingabe wird das Programm abgebrochen, und Sie werden gebeten, bei Schritt 1 erneut zu beginnen.
+   *Hinweis:*
+   - Bei fehlender oder unerwarteter Eingabe wird das Programm abgebrochen, und Sie werden gebeten, erneut zu beginnen.
 
 2. Abhängig von Ihrer Entscheidung in Schritt 1 werden Ihnen eine oder mehrere weitere Fragen gestellt.
 
@@ -45,8 +50,10 @@ https://github.com/gabriel-git25/MiniMLProject
    - Die Eingabe muss numerisch sein. Ist dies nicht der Fall, erscheint eine Fehlermeldung, und Sie müssen wieder bei Schritt 1 beginnen.
    - Fehlt lediglich die Eingabe, benutzt das Programm für die Erstellung der Vorhersage vordefinierte Werte.
      
-4. *Erfolg:* Wurden alle vorherigen Schritte befolgt, erscheint in der Ausgabe ein Graph, der die Vorhersage visualisiert. Zusätzlich werden einige
+3. Wurden alle vorherigen Schritte befolgt, erscheint in der Ausgabe ein Graph, der die Vorhersage visualisiert. Zusätzlich werden einige
    statistische Kennzahlen ausgegeben, die das Modell und die einzelnen Variablen beschreiben
+
+____________________
 
 **ML-Anteil**
 
@@ -62,6 +69,8 @@ linearen Regression wird nur ein Faktor zur Preisvorhersage herangezogen.
 Sobald jedoch mehrere Eigenschaften gleichzeitig berücksichtigt werden, wird das Modell zu einer multiplen linearen Regression erweitert, was die
 Vorhersage realistischer und deutlich genauer macht.
 
+____________________
+
 **Verwendete Tools und Libraries**
 
 Für dieses Programm wurden folgende drei Libraries verwendet:
@@ -70,20 +79,27 @@ Für dieses Programm wurden folgende drei Libraries verwendet:
 - "matplotlib" (zur Visualisierung von Daten und Ergebnissen
 
 *Weitere Tools:*
+
 Zudem wurde GitHub Copilot als Programmier-Assistent eingesetzt, wodurch die Entwicklung dieses Projekts erleichtert wurde. Für die lineare 
 Regression kam schliesslich eine CSV-Tabelle mit historischen Immobiliendaten zum Einsatz, die ebenfalls im Repository enthalten ist (siehe 
 „Laufende Version“).
 
+____________________
+
 **Grenzen und bekannte Probleme**
 
 *Vereinfachung der Realität*
+
 Das Modell basiert auf einem linearen Zusammenhang zwischen den Eigenschaften einer Immobilie und dem Preis. In der Realität sind Immobilienpreise 
 jedoch deutlich komplexer und werden oft durch nicht-lineare Effekte beeinflusst (z. B. Lagequalität, Nachfrage oder Infrastruktur), die durch eine 
 lineare Regression nur teilweise abgebildet werden können.
 
 *Abhängigkeit von Daten*
+
 Die Qualität der Vorhersagen hängt stark von den verwendeten historischen Daten ab. Falls die Daten unvollständig oder verzerrt sind, können auch 
 die Prognosen entsprechend ungenau sein.
+
+____________________
 
 **Quellen**
 
