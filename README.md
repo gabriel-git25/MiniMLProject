@@ -102,7 +102,7 @@ die Prognosen entsprechend ungenau sein.
 
 ____________________
 
-**Nutzung eines Programmier-Agenten**
+**Eigenleistung und Nutzung eines Programmier-Agenten**
 
 In diesem Projekt wurde GitHub Copilot als Programmier-Assistent zur Unterstützung eingesetzt. Dabei diente er insbesondere der Ideenfindung sowie 
 als Hilfe bei der Entwicklung einzelner Codeabschnitte.
