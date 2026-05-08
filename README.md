@@ -50,7 +50,7 @@ ____________________
    *Hinweise:*
    - Die Eingabe muss numerisch sein. Ist dies nicht der Fall, erscheint eine Fehlermeldung, und Sie müssen wieder bei Schritt 1 beginnen.
    - Fehlt lediglich die Eingabe, benutzt das Programm für die Erstellung der Vorhersage vordefinierte Werte.
-     
+
 3. Wurden alle vorherigen Schritte befolgt, erscheint in der Ausgabe ein Graph, der die Vorhersage visualisiert. Zusätzlich werden einige
    statistische Kennzahlen ausgegeben, die das Modell und die einzelnen Variablen beschreiben
 
@@ -115,6 +115,7 @@ ____________________
 **Quellen**
 
 *Ursprüngliche CSV-Tabelle:*
+
 https://www.kaggle.com/datasets/huyngohoang/housingcsv
 
 
