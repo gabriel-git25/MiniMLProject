@@ -24,7 +24,7 @@ https://github.com/gabriel-git25/MiniMLProject
 **Benutzungsanleitung**
 
 1. Beim Starten des Programms wird zunächst gefragt, anhand welcher Eigenschaft der Marktpreis einer Immobilie vorhergesagt werden soll.
-   Dabei können Sie sich für folgende Faktoren entscheiden. Diese sind auch in der untenstehenden Ausgabe aufgeführt.
+   Dabei können Sie sich für folgende Faktoren entscheiden.
    1. "Avg. Area Income"
    2. "Avg. Area House"
    3. "Avg. Area Number of Rooms"
