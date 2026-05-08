@@ -25,7 +25,7 @@ Die laufende Version des Projekts befindet sich im Jupyter Notebook „MiniMLPro
 
 ____________________
 
-**Benutzungsanleitung**
+**Benutzungsanleitung (+Testhinweise)**
 
 1. Beim Starten des Programms wird zunächst gefragt, anhand welcher Eigenschaft der Marktpreis einer Immobilie vorhergesagt werden soll.
    Dabei können Sie sich für folgende Faktoren entscheiden:
@@ -55,7 +55,7 @@ ____________________
 
 ____________________
 
-**ML-Anteil**
+**Beschreibung des ML-Anteils**
 
 Dieses Programm basiert auf dem Machine-Learning-Konzept des Supervised Learning. Konkret wird dabei ein Verfahren verwendet, das als lineare
 Regression bezeichnet wird.
