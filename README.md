@@ -52,7 +52,7 @@ ____________________
    - Fehlt lediglich die Eingabe, benutzt das Programm für die Erstellung der Vorhersage vordefinierte Werte.
 
 3. Wurden alle vorherigen Schritte befolgt, erscheint in der Ausgabe ein Graph, der die Vorhersage visualisiert. Zusätzlich werden einige
-   statistische Kennzahlen ausgegeben, die das Modell und die einzelnen Variablen beschreiben
+   statistische Kennzahlen ausgegeben, die das Modell und die einzelnen Variablen beschreiben.
 
 ____________________
 
@@ -82,7 +82,7 @@ Für dieses Programm wurden folgende drei Libraries verwendet:
 *Weitere Tools:*
 
 Zudem wurde GitHub Copilot als Programmier-Assistent eingesetzt, wodurch die Entwicklung dieses Projekts erleichtert wurde. Für die lineare 
-Regression kam schliesslich eine CSV-Tabelle mit historischen Immobiliendaten zum Einsatz, die ebenfalls im Repository enthalten ist
+Regression kam schliesslich eine CSV-Tabelle mit historischen Immobiliendaten zum Einsatz, die ebenfalls im Repository enthalten ist.
 
 ____________________
 
@@ -104,7 +104,7 @@ ____________________
 **Nutzung eines Programmier-Agenten**
 
 In diesem Projekt wurde GitHub Copilot als Programmier-Assistent zur Unterstützung eingesetzt. Dabei diente er insbesondere der Ideenfindung sowie 
-als Hilfe bei der Entwicklung einzelner Codeabschnitte
+als Hilfe bei der Entwicklung einzelner Codeabschnitte.
 
 Der eigentliche Code wurde jedoch grösstenteils eigenständig erarbeitet und implementiert. Der Einsatz von Copilot beschränkte sich auf wenige, 
 kleinere Situationen, in denen er auf mögliche Python-Funktionen oder -Methoden hinwies, die die Umsetzung vereinfachten. Beispiele hierfür sind 
