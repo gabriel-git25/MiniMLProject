@@ -35,7 +35,7 @@ ____________________
    - "Area Population" (4)
    - "Use all of the features above" (5)
    
-   *Hinweis:*
+   *Hinweise:*
    - Bei fehlender oder unerwarteter Eingabe wird das Programm abgebrochen, und Sie werden gebeten, erneut zu beginnen.
    - Nach einer Linearitätsprüfung erwies sich „Avg. Area Number of Bedrooms“ als nicht-linear, weshalb diese Variable hier nicht als Option erwähnt
      wird
