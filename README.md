@@ -9,13 +9,10 @@ beurteilen können, ob der verlangte Preis für eine Immobilie tatsächlich gere
 In der Praxis ist dies oft schwierig, da Immobilienpreise von vielen Faktoren abhängen und häufig lediglich auf Einschätzungen basieren, die sich auf
 Vergleichsobjekte, Erfahrungswerte oder die Bewertung von Experten stützen, was jedoch nicht immer objektiv oder einheitlich ist.
 
-Die Lösung besteht darin, ein Machine-Learning-Modell zu entwickeln, das auf Basis historischer Immobiliendaten den Marktwert einer Immobilie
-vorhersagen kann. Dafür wird ein überwacht lernendes Regressionsmodell verwendet, das Zusammenhänge zwischen verschiedenen Eigenschaften
-einer Immobilie und ihrem Verkaufspreis erkennt.
-
-Konkret wird das Modell mit Beispieldaten trainiert, die Informationen wie das durchschnittliche Einkommen, das Durchschnittsalter einer Immobilie,
-die durchschnittliche Anzahl an Zimmern und Schlafzimmern sowie die Bevölkerungszahl in einer Nachbarschaft enthalten. Aus diesen Daten lernt es eine
-mathematische Beziehung zwischen den Eigenschaften und dem Preis. 
+Die Lösung besteht darin, ein Machine-Learning-Modell zu entwickeln, das auf Basis historischer Immobiliendaten den Marktwert einer Immobilie 
+vorhersagen kann. Dafür wird ein überwacht lernendes Regressionsmodell verwendet, das Zusammenhänge zwischen verschiedenen Eigenschaften einer 
+Immobilie und ihrem Verkaufspreis erkennt. Zu diesen Eigenschaften zählen das durchschnittliche Einkommen, das Durchschnittsalter der Immobilie, die 
+durchschnittliche Anzahl an Zimmern und Schlafzimmern sowie die Bevölkerungszahl einer Nachbarschaft.
 
 ____________________
 
@@ -41,16 +38,16 @@ ____________________
 
 2. Abhängig von Ihrer Entscheidung in Schritt 1 werden Ihnen eine oder mehrere weitere Fragen gestellt.
 
-   1. Wurde „1–4“ eingegeben, erhalten Sie die Möglichkeit, für die entsprechende Eigenschaft einen Wert anzugeben, auf dessen Grundlage
+   1. Wurde „1–4“ eingegeben, erhalten Sie die Möglichkeit, für die entsprechende Eigenschaft einen numerischen Wert anzugeben, auf dessen Grundlage
       die Vorhersage erfolgt.
    
-   2. Wurde „5“ eingegeben, werden Ihnen einige weitere Fragen gestellt. Auch hier erhalten Sie bei jeder Frage die Möglichkeit, für jede Eigenschaft
-      einen Wert anzugeben, auf dessen Grundlage die Vorhersage erfolgt.
+   2. Wurde „5“ eingegeben, werden Ihnen einige weitere Fragen gestellt. Auch hier haben Sie bei jeder Frage die Möglichkeit, für jede Eigenschaft
+      einen eigenen Wert einzugeben, der als Grundlage für die Vorhersage verwendet wird
 
    *Hinweise:*
    - Die Eingabe muss numerisch sein. Ist dies nicht der Fall, erscheint eine Fehlermeldung, und Sie müssen wieder bei Schritt 1 beginnen.
    - Fehlt lediglich die Eingabe, benutzt das Programm für die Erstellung der Vorhersage vordefinierte Werte. Diese sind nicht nur dann hilfreich,
-     wenn keine eigenen Daten zur Verfügung stehen, sondern dienen auch der Überprüfung und dem Testen des Codes.
+     wenn keine eigenen Daten zur Verfügung stehen, sondern dienten im Verlauf der Entwicklung auch der Überprüfung und dem Testen des Codes.
 
 3. Wurden alle vorherigen Schritte befolgt, erscheint in der Ausgabe ein Graph, der die Vorhersage visualisiert. Zusätzlich werden einige
    statistische Kennzahlen ausgegeben, die das Modell und die einzelnen Variablen beschreiben.
@@ -59,17 +56,15 @@ ____________________
 
 **Beschreibung des ML-Anteils**
 
-Dieses Programm basiert auf dem Machine-Learning-Konzept des Supervised Learning. Konkret wird dabei ein Verfahren verwendet, das als lineare
-Regression bezeichnet wird.
-
-Ein lineares Regressionsmodell ist ein statistisches Verfahren, das Zusammenhänge zwischen einer oder mehreren Eingangsgrössen und einer Zielgrösse
-beschreibt. Die Grundidee ist, dass der Immobilienpreis nicht zufällig entsteht, sondern durch mehrere messbare Faktoren beeinflusst wird.
+Dieses Programm basiert auf dem Machine-Learning-Konzept des Supervised Learning. Dabei wird ein Verfahren verwendet, das als lineare Regression 
+bezeichnet wird und Zusammenhänge zwischen einer oder mehreren Eingangsgrössen und einer Zielgrösse beschreibt. Die Grundidee ist, dass der 
+Immobilienpreis nicht zufällig entsteht, sondern durch mehrere messbare Faktoren beeinflusst wird. 
 
 Im einfachsten Fall basiert das Modell auf einer einzelnen erklärenden Variable (z. B. dem Durchschnittsalter der Immobilie). In dieser einfachen
 linearen Regression wird nur dieser Faktor zur Preisvorhersage herangezogen. 
 
-Sobald jedoch mehrere Eigenschaften gleichzeitig berücksichtigt werden, wird das Modell zu einer multiplen linearen Regression erweitert, was die
-Vorhersage realistischer und deutlich genauer macht.
+Sobald jedoch mehrere Eigenschaften gleichzeitig berücksichtigt werden (wie z.B bei 2. in der Benutzungsanleitung), wird das Modell zu einer
+multiplen linearen Regression erweitert, was die Vorhersage realistischer und deutlich genauer macht.
 
 ____________________
 
