@@ -26,7 +26,7 @@ Die laufende Version des Projekts befindet sich im Jupyter Notebook „MiniMLPro
 
 ____________________
 
-**Benutzungsanleitung**
+**Benutzungsanleitung (+ Testhinweise)**
 
 1. Beim Starten des Programms wird zunächst gefragt, anhand welcher Eigenschaft der Marktpreis einer Immobilie vorhergesagt werden soll.
    Dabei können Sie sich für folgende Faktoren entscheiden:
@@ -49,7 +49,8 @@ ____________________
 
    *Hinweise:*
    - Die Eingabe muss numerisch sein. Ist dies nicht der Fall, erscheint eine Fehlermeldung, und Sie müssen wieder bei Schritt 1 beginnen.
-   - Fehlt lediglich die Eingabe, benutzt das Programm für die Erstellung der Vorhersage vordefinierte Werte.
+   - Fehlt lediglich die Eingabe, benutzt das Programm für die Erstellung der Vorhersage vordefinierte Werte. Diese sind nicht nur dann hilfreich,
+     wenn keine eigenen Daten zur Verfügung stehen, sondern dienen auch der Überprüfung und dem Testen des Codes.
 
 3. Wurden alle vorherigen Schritte befolgt, erscheint in der Ausgabe ein Graph, der die Vorhersage visualisiert. Zusätzlich werden einige
    statistische Kennzahlen ausgegeben, die das Modell und die einzelnen Variablen beschreiben.
@@ -83,12 +84,6 @@ Für dieses Programm wurden folgende drei Libraries verwendet:
 
 Zudem wurde GitHub Copilot als Programmier-Assistent eingesetzt, wodurch die Entwicklung dieses Projekts erleichtert wurde. Für die lineare 
 Regression kam schliesslich eine CSV-Tabelle mit historischen Immobiliendaten zum Einsatz, die ebenfalls im Repository enthalten ist.
-
-____________________
-
-**Testhinweise**
-
-Wenn nach der ersten Eingabe keine weiteren Benutzereingaben erfolgen, werden vordefinierte Werte verwendet. Diese sind nicht nur dann hilfreich, wenn keine eigenen Daten zur Verfügung stehen, sondern dienten auch der Überprüfung und dem Testen des Codes.
 
 ____________________
 
