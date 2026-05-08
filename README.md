@@ -13,8 +13,7 @@ Die Lösung besteht darin, ein Machine-Learning-Modell zu entwickeln, das auf Ba
 vorhersagen kann. Dafür wird ein überwacht lernendes Regressionsmodell verwendet, das Zusammenhänge zwischen verschiedenen Eigenschaften einer 
 Immobilie und ihrem Verkaufspreis erkennt. 
 
-Zu diesen Eigenschaften zählen das durchschnittliche Einkommen, das Durchschnittsalter der Immobilie, die 
-durchschnittliche Anzahl an Zimmern und Schlafzimmern sowie die Bevölkerungszahl einer Nachbarschaft.
+Zu diesen Eigenschaften zählen das durchschnittliche Einkommen, das Durchschnittsalter der Immobilie, die durchschnittliche Anzahl an Zimmern und Schlafzimmern sowie die Bevölkerungszahl einer Nachbarschaft.
 
 ____________________
 
@@ -38,7 +37,7 @@ ____________________
    *Hinweise:*
    - Bei fehlender oder unerwarteter Eingabe wird das Programm abgebrochen, und Sie werden gebeten, erneut zu beginnen.
    - Nach einer Linearitätsprüfung erwies sich „Avg. Area Number of Bedrooms“ als nicht-linear, weshalb diese Variable hier nicht als Option erwähnt
-     wird
+     wird.
 
 2. Abhängig von Ihrer Entscheidung in Schritt 1 werden Ihnen eine oder mehrere weitere Fragen gestellt.
 
@@ -103,12 +102,11 @@ ____________________
 
 **Eigenleistung und Nutzung eines Programmier-Agenten**
 
-In diesem Projekt wurde GitHub Copilot als Programmier-Assistent zur Unterstützung eingesetzt. Dabei diente er insbesondere der Ideenfindung sowie 
-als Hilfe bei der Entwicklung einzelner Codeabschnitte.
+Wir schon erwähnt, wurde in diesem Projekt wurde GitHub Copilot als Programmier-Assistent zur Unterstützung eingesetzt. Dabei diente er jedoch insbesondere der Ideenfindung. 
 
-Der eigentliche Code wurde jedoch grösstenteils eigenständig erarbeitet und implementiert. Der Einsatz von Copilot beschränkte sich auf wenige, 
+Der eigentliche Code wurde grösstenteils eigenständig erarbeitet und implementiert. Der Einsatz von Copilot beschränkte sich auf wenige, 
 kleinere Situationen, in denen er auf mögliche Python-Funktionen oder -Methoden hinwies, die die Umsetzung vereinfachten. Beispiele hierfür sind 
-etwa Hinweise auf Funktionen wie ".strip()" oder ".copy()".
+etwa Hinweise auf Funktionen wie ".strip()" oder ".copy()", die mir zuvor nicht bekannt waren.
 
 ____________________
 
