@@ -3,7 +3,8 @@
 **Beschreibung des Problems und Lösung**
 
 Mein Auftraggeber für dieses Projekt sind meine Eltern. Sie stehen dabei vor zwei konkreten Fragen im Zusammenhang mit Immobilien: Einerseits
-möchten sie den ungefähren Wert einer Immobilie einschätzen, die sie bereits besitzen. Andererseits wollen sie bei einem möglichen Kauf besser beurteilen können, ob der verlangte Preis für eine Immobilie tatsächlich gerechtfertigt ist oder eher über dem zu erwartenden Marktwert liegt.
+möchten sie den ungefähren Wert einer Immobilie einschätzen, die sie bereits besitzen. Andererseits wollen sie bei einem möglichen Kauf besser 
+beurteilen können, ob der verlangte Preis für eine Immobilie tatsächlich gerechtfertigt ist oder eher über dem zu erwartenden Marktwert liegt.
 
 In der Praxis ist dies oft schwierig, da Immobilienpreise von vielen Faktoren abhängen und häufig lediglich auf Einschätzungen basieren, die sich auf
 Vergleichsobjekte, Erfahrungswerte oder die Bewertung von Experten stützen, was jedoch nicht immer objektiv oder einheitlich ist.
@@ -98,6 +99,17 @@ lineare Regression nur teilweise abgebildet werden können.
 
 Die Qualität der Vorhersagen hängt stark von den verwendeten historischen Daten ab. Falls die Daten unvollständig oder verzerrt sind, können auch 
 die Prognosen entsprechend ungenau sein.
+
+____________________
+
+**Nutzung eines Programmier-Agenten**
+
+In diesem Projekt wurde GitHub Copilot als Programmier-Assistent zur Unterstützung eingesetzt. Dabei diente er insbesondere der Ideenfindung sowie 
+als Hilfe bei der Entwicklung einzelner Codeabschnitte
+
+Der eigentliche Code wurde jedoch grösstenteils eigenständig erarbeitet und implementiert. Der Einsatz von Copilot beschränkte sich auf wenige, 
+kleinere Situationen, in denen er auf mögliche Python-Funktionen oder -Methoden hinwies, die die Umsetzung vereinfachten. Beispiele hierfür sind 
+etwa Hinweise auf Funktionen wie ".strip()" oder ".copy()".
 
 ____________________
 
