@@ -65,7 +65,7 @@ Ein lineares Regressionsmodell ist ein statistisches Verfahren, das Zusammenhän
 beschreibt. Die Grundidee ist, dass der Immobilienpreis nicht zufällig entsteht, sondern durch mehrere messbare Faktoren beeinflusst wird.
 
 Im einfachsten Fall basiert das Modell auf einer einzelnen erklärenden Variable (z. B. dem Durchschnittsalter der Immobilie). In dieser einfachen
-linearen Regression wird nur ein Faktor zur Preisvorhersage herangezogen. 
+linearen Regression wird nur dieser Faktor zur Preisvorhersage herangezogen. 
 
 Sobald jedoch mehrere Eigenschaften gleichzeitig berücksichtigt werden, wird das Modell zu einer multiplen linearen Regression erweitert, was die
 Vorhersage realistischer und deutlich genauer macht.
