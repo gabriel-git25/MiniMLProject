@@ -82,8 +82,7 @@ Für dieses Programm wurden folgende drei Libraries verwendet:
 *Weitere Tools:*
 
 Zudem wurde GitHub Copilot als Programmier-Assistent eingesetzt, wodurch die Entwicklung dieses Projekts erleichtert wurde. Für die lineare 
-Regression kam schliesslich eine CSV-Tabelle mit historischen Immobiliendaten zum Einsatz, die ebenfalls im Repository enthalten ist (siehe 
-„Laufende Version“).
+Regression kam schliesslich eine CSV-Tabelle mit historischen Immobiliendaten zum Einsatz, die ebenfalls im Repository enthalten ist
 
 ____________________
 
