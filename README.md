@@ -41,10 +41,10 @@ ____________________
 
 2. Abhängig von Ihrer Entscheidung in Schritt 1 werden Ihnen eine oder mehrere weitere Fragen gestellt.
 
-   1. Wird „1–4“ eingegeben, erhalten Sie die Möglichkeit, für die entsprechende Eigenschaft einen numerischen Wert anzugeben, auf dessen Grundlage
+   1. Wurde „1–4“ eingegeben, erhalten Sie die Möglichkeit, für die entsprechende Eigenschaft einen numerischen Wert anzugeben, auf dessen Grundlage
       die Vorhersage erfolgt.
    
-   2. Wird „5“ eingegeben, werden Ihnen einige weitere Fragen gestellt. Auch hier erhalten Sie bei jeder Frage die Möglichkeit, für jede Eigenschaft
+   2. Wurde „5“ eingegeben, werden Ihnen einige weitere Fragen gestellt. Auch hier erhalten Sie bei jeder Frage die Möglichkeit, für jede Eigenschaft
       einen numerischen Wert anzugeben, auf dessen Grundlage die Vorhersage erfolgt.
 
    *Hinweise:*
