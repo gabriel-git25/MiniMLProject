@@ -102,7 +102,7 @@ ____________________
 
 **Eigenleistung und Nutzung eines Programmier-Agenten**
 
-Wir schon erwähnt, wurde in diesem Projekt wurde GitHub Copilot als Programmier-Assistent zur Unterstützung eingesetzt. Dabei diente er jedoch insbesondere der Ideenfindung. 
+Wir schon erwähnt, wurde in diesem Projekt GitHub Copilot als Programmier-Assistent zur Unterstützung eingesetzt. Dabei diente er jedoch insbesondere der Ideenfindung. 
 
 Der eigentliche Code wurde grösstenteils eigenständig erarbeitet und implementiert. Der Einsatz von Copilot beschränkte sich auf wenige, 
 kleinere Situationen, in denen er auf mögliche Python-Funktionen oder -Methoden hinwies, die die Umsetzung vereinfachten. Beispiele hierfür sind 
