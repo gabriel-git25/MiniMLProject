@@ -11,7 +11,9 @@ Vergleichsobjekte, Erfahrungswerte oder die Bewertung von Experten stützen, was
 
 Die Lösung besteht darin, ein Machine-Learning-Modell zu entwickeln, das auf Basis historischer Immobiliendaten den Marktwert einer Immobilie 
 vorhersagen kann. Dafür wird ein überwacht lernendes Regressionsmodell verwendet, das Zusammenhänge zwischen verschiedenen Eigenschaften einer 
-Immobilie und ihrem Verkaufspreis erkennt. Zu diesen Eigenschaften zählen das durchschnittliche Einkommen, das Durchschnittsalter der Immobilie, die 
+Immobilie und ihrem Verkaufspreis erkennt. 
+
+Zu diesen Eigenschaften zählen das durchschnittliche Einkommen, das Durchschnittsalter der Immobilie, die 
 durchschnittliche Anzahl an Zimmern und Schlafzimmern sowie die Bevölkerungszahl einer Nachbarschaft.
 
 ____________________
@@ -35,6 +37,8 @@ ____________________
    
    *Hinweis:*
    - Bei fehlender oder unerwarteter Eingabe wird das Programm abgebrochen, und Sie werden gebeten, erneut zu beginnen.
+   - Nach einer Linearitätsprüfung erwies sich „Avg. Area Number of Bedrooms“ als nicht-linear, weshalb diese Variable hier nicht als Option erwähnt
+     wird
 
 2. Abhängig von Ihrer Entscheidung in Schritt 1 werden Ihnen eine oder mehrere weitere Fragen gestellt.
 
