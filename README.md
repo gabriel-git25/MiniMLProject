@@ -77,7 +77,7 @@ ____________________
 Für dieses Programm wurden folgende drei Libraries verwendet:
 - "pandas" (zur Datenverarbeitung und -analyse)
 - "statsmodels" (zur statistischen Modellierung, u.a Vorhersagen)
-- "matplotlib" (zur Visualisierung von Daten und Ergebnissen
+- "matplotlib" (zur Visualisierung von Daten und Ergebnissen)
 
 *Weitere Tools:*
 
