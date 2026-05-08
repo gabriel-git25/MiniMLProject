@@ -86,6 +86,12 @@ Regression kam schliesslich eine CSV-Tabelle mit historischen Immobiliendaten zu
 
 ____________________
 
+**Testhinweise**
+
+Wenn nach der ersten Eingabe keine weiteren Benutzereingaben erfolgen, werden vordefinierte Werte verwendet. Diese sind nicht nur dann hilfreich, wenn keine eigenen Daten zur Verfügung stehen, sondern dienten auch der Überprüfung und dem Testen des Codes.
+
+____________________
+
 **Grenzen und bekannte Probleme**
 
 *Vereinfachung der Realität*
