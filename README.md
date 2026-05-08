@@ -21,7 +21,7 @@ ____________________
 **Laufende Version**
 
 Die laufende Version des Projekts befindet sich im Jupyter Notebook „MiniMLProject.ipynb“ im folgenden Repository:
-https://github.com/gabriel-git25/MiniMLProject
+[https://github.com/gabriel-git25/MiniMLProject](https://github.com/gabriel-git25/MiniMLProject/blob/main/MiniMLProject.ipynb)
 
 ____________________
 
