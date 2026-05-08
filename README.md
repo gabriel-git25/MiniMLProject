@@ -26,7 +26,7 @@ Die laufende Version des Projekts befindet sich im Jupyter Notebook „MiniMLPro
 
 ____________________
 
-**Benutzungsanleitung (+Testhinweise)**
+**Benutzungsanleitung**
 
 1. Beim Starten des Programms wird zunächst gefragt, anhand welcher Eigenschaft der Marktpreis einer Immobilie vorhergesagt werden soll.
    Dabei können Sie sich für folgende Faktoren entscheiden:
