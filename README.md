@@ -31,7 +31,7 @@ ____________________
 1. Beim Starten des Programms wird zunächst gefragt, anhand welcher Eigenschaft der Marktpreis einer Immobilie vorhergesagt werden soll.
    Dabei können Sie sich für folgende Faktoren entscheiden:
    - "Avg. Area Income" (1)
-   - "Avg. Area House" (2)
+   - "Avg. Area House Age" (2)
    - "Avg. Area Number of Rooms" (3)
    - "Area Population" (4)
    - "Use all of the features above" (5)
